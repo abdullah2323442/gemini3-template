@@ -57,7 +57,7 @@ const Features = () => {
                     width: '100%',
                     height: '120%', // Taller for parallax
                     zIndex: -1,
-                    backgroundImage: `url(${featuresBgAi})`,
+                    backgroundImage: `url(/features_bg_ai.png)`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     y: y1,

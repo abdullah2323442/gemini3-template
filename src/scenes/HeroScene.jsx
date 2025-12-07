@@ -7,7 +7,7 @@ import heroTexture from '../assets/hero_texture.png';
 
 const AnimatedObject = ({ position }) => {
     const meshRef = useRef();
-    const texture = useLoader(TextureLoader, heroTexture);
+    const texture = useLoader(TextureLoader, '/hero_texture.png');
 
     useFrame((state, delta) => {
         if (meshRef.current) {
